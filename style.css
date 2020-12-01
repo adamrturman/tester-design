@@ -1,0 +1,16 @@
+.hero {
+   height: 40rem; 
+}
+
+.hero-image {
+    background-image: url('img/home.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.logo {
+    height:5rem; 
+    margin-left:1rem; 
+    margin-top:3rem;
+}
