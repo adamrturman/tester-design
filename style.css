@@ -1,4 +1,12 @@
 
+.awards-images {
+    padding: 5rem;
+}
+
+.awards-section {
+    height: 15rem;
+}
+
 .hamburger {
     margin-left:5rem;
     margin-top:50px;
