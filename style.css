@@ -9,8 +9,32 @@
     height: 100%;
 }
 
+.intro {
+    height: 20rem;
+}
+
 .logo {
     height:5rem; 
     margin-left:1rem; 
     margin-top:3rem;
+}
+
+.purchase {
+    background-image: url('img/purchase.jpg'); 
+    background-size: cover;
+}
+
+.refinance {
+    background-image: url('img/refinance.jpg'); 
+    background-size: cover;
+}
+
+.why-us {
+    background-image: url('img/why-us.jpg'); 
+    background-size: cover; 
+}
+
+.meet-me {
+    background-image: url('img/meet-me.jpg'); 
+    background-size: cover; 
 }
