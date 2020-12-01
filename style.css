@@ -86,6 +86,14 @@
 
 }
 
+.icons-left {
+    margin-right: 8rem;
+}
+
+.icons-right {
+    margin-left: 8rem;
+}
+
 .icons-row {
     height: 15rem;
     padding-left: 5rem;
