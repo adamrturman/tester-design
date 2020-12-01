@@ -17,6 +17,7 @@
 
 .customer-image {
     border-radius: 50%;
+    box-shadow: -70px 45px 5px 20px #fbfbfb;
     height: 35rem;
     margin-left: 25rem;
     margin-top: 9rem;
