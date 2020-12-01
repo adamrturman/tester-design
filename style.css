@@ -7,6 +7,7 @@
     height: 15rem;
 }
 
+
 .customer-card {
     border-radius: 5%;
     height: 18rem;
@@ -57,7 +58,8 @@
 }
 
 .hero {
-   height: 40rem; 
+   height: 40rem;
+   padding: 0; 
 }
 
 .hero-image {
@@ -75,6 +77,13 @@
     margin-top:18rem    
 }
 
+.icons-bg {
+    background-color: #fcfcfc;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+
+}
+
 .icons-row {
     height: 15rem;
     padding-left: 5rem;
@@ -83,7 +92,7 @@
 
 .icons-text {
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .icons {
@@ -98,6 +107,10 @@
     height:5rem; 
     margin-left:1rem; 
     margin-top:3rem;
+}
+
+.main {
+    padding: 0;
 }
 
 .pointer {
@@ -159,7 +172,7 @@
 
 .steps-text {
     font-size: .7rem;
-    height: 50rem;
+    height: 60rem;
     margin-right: -8rem;
     padding-left: 4rem;
     text-align: center;
