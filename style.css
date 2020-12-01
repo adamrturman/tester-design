@@ -7,12 +7,33 @@
     height: 15rem;
 }
 
+.customer-card {
+    border-radius: 5%;
+    height: 18rem;
+    margin-left: 10rem;
+    margin-top: -5rem;
+    width: 18rem;
+
+}
+
 .customer-image {
     border-radius: 50%;
     height: 25rem;
     margin-left: 15rem;
     margin-top: 9rem;
     width: 25rem;
+}
+
+.drop-cap {
+    text-align: center;
+    font-weight: 100;
+    padding:2rem;
+}
+
+.drop-cap:first-letter {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: -1rem;
 }
 
 .green-bold {
