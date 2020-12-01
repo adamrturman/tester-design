@@ -9,18 +9,18 @@
 
 .customer-card {
     border-radius: 5%;
-    height: 18rem;
-    margin-left: 10rem;
+    height: 20rem;
+    margin-left: 20rem;
     margin-top: -5rem;
-    width: 18rem;
+    width: 20rem;
 }
 
 .customer-image {
     border-radius: 50%;
-    height: 25rem;
-    margin-left: 15rem;
+    height: 35rem;
+    margin-left: 25rem;
     margin-top: 9rem;
-    width: 25rem;
+    width: 35rem;
 }
 
 .drop-cap {
@@ -106,8 +106,8 @@
 }
 
 .icons-text {
-    font-size: 2rem;
-    font-weight: 200;
+    font-size: 3rem;
+    font-weight: 100;
     line-height: initial;
 }
 
