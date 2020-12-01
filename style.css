@@ -72,10 +72,11 @@
 
 .hero-text {
     color: white;  
-    font-size:2rem; 
+    font-size:3.5rem; 
     font-weight:bold;
+    line-height: initial;
     margin-left:1rem; 
-    margin-top:18rem    
+    margin-top:10rem    
 }
 
 .icons-bg {
@@ -117,8 +118,8 @@
 
 .pointer {
     margin-bottom:.5rem;
-    margin-left:-9px;
-    max-height: 2.6rem;  
+    margin-left:-11px;
+    max-height: 4rem;  
 }
 
 .highlight-box {
