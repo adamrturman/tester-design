@@ -32,6 +32,18 @@
     margin-top:18rem    
 }
 
+.icons-row {
+    height: 15rem;
+}
+
+.icons-text {
+    font-size: 2rem;
+}
+
+.icons {
+    text-align: center;
+}
+
 .intro {
     height: 20rem;
 }
