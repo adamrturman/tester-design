@@ -10,7 +10,7 @@
 .customer-card {
     border-radius: 5%;
     height: 20rem;
-    margin-left: 20rem;
+    margin-left: 10rem;
     margin-top: -5rem;
     width: 20rem;
 }
@@ -19,7 +19,7 @@
     border-radius: 50%;
     box-shadow: -70px 45px 5px 20px #fbfbfb;
     height: 35rem;
-    margin-left: 25rem;
+    margin-left: 15rem;
     margin-top: 9rem;
     width: 35rem;
 }
@@ -96,7 +96,7 @@
 }
 
 .icons-right {
-    margin-right: 8rem;
+    margin-left: 8rem;
 }
 
 .icons-row {
@@ -107,7 +107,7 @@
 }
 
 .icons-text {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 100;
     line-height: initial;
 }
