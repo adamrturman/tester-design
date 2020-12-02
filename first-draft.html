@@ -12,13 +12,10 @@
     <body>
         <!-- Hero Box -->
         <div class="container-fluid main">
-            <div class="row">
-                <div class="col-12 col-lg-6 hero-box">
+            <div class="hero row no-gutters">
+                <div class="col-12 col-lg-6">
                     <div class="hero-image col-12">
-                        <div class="row">
-                            <img src="img/neighborhoodloans.svg" class="logo" alt="logo">
-                            <img src="img/hamburger.svg" alt="dropdown_menu" class="hero-hamburger">
-                        </div>
+                        <img src="img/neighborhoodloans.svg" class="logo" alt="logo">
                         <div class="hero-text">
                             <span>YOUR</span><br/>
                             <span>CUSTOM_</span><br/>
@@ -29,8 +26,8 @@
                     </div>
                 </div>
                 <!-- Navigation Grid -->
-                <div class="col-12 col-lg-6 nav-grid">
-                    <div class="container-fluid">
+                <div class="col-12 col-lg-6">
+                    <div class="container">
                         <div class="intro row">
                             <div class="purchase border col-6">
                                 <div class="navigation-link" >
@@ -38,19 +35,19 @@
                                 </div>
                             </div>
                             <div class="refinance border col-6">
-                                <img src="img/hamburger.svg" alt="dropdown_menu" class="refinance-hamburger">
+                                <img src="img/hamburger.svg" alt="dropdown_menu" class="hamburger">
                                 <div class="navigation-link" >
                                     <h2 class="refinance-text">REFINANCE</h2>                        
                                 </div>
                             </div>
                         </div>
                         <div class="intro row">
-                            <div class="refinance border col-6">
+                            <div class="why-us border col-6">
                                 <div class="navigation-link" >
                                     <h2 class="navigation-text">WHY&nbsp;US</h2>                        
                                 </div>
                             </div>
-                            <div class="refinance border col-6">
+                            <div class="meet-me border col-6">
                                 <div class="navigation-link">
                                     <h2 class="navigation-text">MEET&nbsp;ME!</h2>                        
                                 </div>
@@ -59,36 +56,48 @@
                     </div>
                 </div>
             </div>    
-    </div>
-        <!-- Awards -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 awards-images">
-                    <img src="img/neighborhood-loans-awards.png" alt="awards" class="img-fluid text-center">
+        </div>
+            <!-- Awards -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 awards-images">
+                        <img src="img/neighborhood-loans-awards.png" alt="awards" class="img-fluid text-center">
+                    </div>
                 </div>
+                
             </div>
-        </div>
-        <!-- Icons -->
-        <div class="container-fluid">
-            <div class="row icons-row">
-                    <div class="col-12 col-lg-4 icons">
-                        <img src="img/thumbsup.png" alt="" class="img-fluid">
-                        <p class="text-muted icons-text" >98% Customer <br/> Satisfaction</p>
+            <!-- <div class="awards-section row">
+                <div class="col-12">
+                    <div class="awards-images">
+                        <img src="img/neighborhood-loans-awards.png" alt="awards" class="img-fluid text-center">
                     </div>
-                    <div class="col-12 col-lg-4 icons icons-bg">
-                        <img src="img/approval.png" alt="" class="img-fluid">
-                        <p class="text-muted icons-text" >Fannie & Freddie <br/> Approved Direct <br/> Lender</p>
+                </div>
+            </div> -->
+            <!-- Icons -->
+                <div class="icons-row row">
+                    <div class="col-4">
+                        <div class="icons icons-left">
+                            <img src="img/thumbsup.png" alt="" class="img-fluid">
+                            <p class="text-muted icons-text" >98% Customer <br/> Satisfaction</p>
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-4 icons">
-                        <img src="img/24hours.png" alt="" class="img-fluid">
-                        <p class="text-muted icons-text" >24 Hour <br/> Pre-Approval <br/>Target</p>
+                    <div class="col-4">
+                        <div class="icons icons-bg">
+                            <img src="img/approval.png" alt="" class="img-fluid">
+                            <p class="text-muted icons-text" >Fannie & Freddie <br/> Approved Direct <br/> Lender</p>
+                        </div>
                     </div>
-            </div>
-        </div>
-        <!-- Steps -->
-        <div class="container-fluid">
-            <div class="row">
-                    <div class="col-12 col-lg-5 d-flex flex-column justify-content-center align-items-center steps-text">
+                    <div class="col-4">
+                        <div class="icons">
+                            <img src="img/24hours.png" alt="" class="img-fluid">
+                            <p class="text-muted icons-text" >24 Hour <br/> Pre-Approval <br/>Target</p>
+                        </div>
+                    </div>
+                </div>
+            <!-- Steps -->
+            <div class="container">
+                <div class="row" style="height: 15rem;">
+                    <div class="col-5 d-flex flex-column justify-content-center align-items-center steps-text">
                         <h3 class="green-bold" >Here's how we do things</h3>
                         <p class="green-apply" >Apply Online</p>
                         <img src="img/progress.png" alt="">
@@ -100,7 +109,8 @@
                         <img src="img/progress.png" alt="">
                         <p class="font-weight-light text-muted steps">Clear to close!</p>
                     </div>
-                    <div class="col-12 col-lg-7">
+                    <!-- Customer -->
+                    <div class="col-7">
                         <img src="img/icon8-team-unsplash.png" alt="customer" class="customer-image">
                         <div class="card customer-card">
                             <div class="card-body drop-cap">
@@ -108,7 +118,8 @@
                             </div>
                         </div>
                     </div>
-            </div>
+                </div>
+            </div> 
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
