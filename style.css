@@ -264,9 +264,17 @@ html {
         
     .steps-text {
         margin-top: 4rem;
+    } 
+}
+
+@media (min-width: 375px) {
+    .customer-card {
+        margin-left: 1.5rem;
     }
-    
-    
+    .customer-image {
+        margin-left: 3rem;
+        margin-top: -6rem;
+    }
 }
 
 @media (min-width: 425px) {
