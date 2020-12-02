@@ -2,6 +2,10 @@ body {
     width: -webkit-fill-available;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 .awards-images {
     padding: 5rem;
     text-align: center;
