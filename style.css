@@ -68,6 +68,7 @@ html {
 }
 
 .hero-hamburger {
+    cursor: grab;
     margin-left:5rem;
     margin-top:50px;
     max-height: 40px;
@@ -177,11 +178,12 @@ html {
 }
 
 .refinance-hamburger {
-    visibility: hidden;
+    cursor: grab;
     margin-left:5rem;
     margin-top:50px;
     max-height: 40px;
-    position: sticky;  
+    position: sticky;
+    visibility: hidden;  
 }
 
 .refinance-text {
