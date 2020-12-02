@@ -389,6 +389,12 @@ html {
     }        
 }
 
+@media (min-width: 1024px) {
+    .intro {
+        height: 25rem;
+    }
+}
+
 @media (min-width: 1440px) {
     .customer-card {
         margin-left: 15rem;
