@@ -292,11 +292,11 @@ html {
         padding: 4rem;
     }
     .customer-card {
-        margin-left: 13.5rem;
+        margin-left: 14rem;
     }
     .customer-image {
-    margin-left: 10rem;
-    margin-top: 1rem;
+    margin-left: 10.5rem;
+    margin-top: -3rem;
     height: 25rem;
     width: 25rem;
     }
@@ -404,7 +404,7 @@ html {
 
 @media (min-width: 2560px) {
     .customer-card {
-        height: 17rem;
+        height: 24rem;
         margin-bottom: 10rem;
         margin-left: 20rem;
         margin-top: -7.5rem;
@@ -415,6 +415,9 @@ html {
         height: 50rem;
         margin-top: 15rem;
         width: 50rem;
+    }
+    .drop-cap {
+        font-size: x-large;
     }
     .icon {
         height: 8rem;
