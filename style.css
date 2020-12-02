@@ -177,3 +177,21 @@
     background-image: url('img/why-us.jpg'); 
     background-size: cover; 
 }
+
+@media (min-width: 320px) {
+    .steps-text {
+        margin-top: 32rem;
+    }        
+}
+
+@media (min-width: 425px) {
+    .steps-text {
+        margin-top: 25rem;
+    }        
+}
+
+@media (min-width: 992px) {
+    .steps-text {
+        margin-top: 5rem;
+    }        
+}
