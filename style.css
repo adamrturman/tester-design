@@ -45,18 +45,17 @@ html {
     margin-top: -1rem;
 }
 
-.green-bold {
-    color:#58bc79;
-    font-size: 2.4rem;
-    font-weight: bold;
-    padding-top: 2rem;
-}
-
 .green-apply {
     color:#58bc79;
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 1rem;
+}
+.green-bold {
+    color:#58bc79;
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding-top: 2rem;
 }
 
 .hero {
@@ -116,7 +115,6 @@ html {
     font-weight: 100;
     line-height: initial;
 }
-
 
 .intro {
     height: 22rem;
@@ -322,22 +320,18 @@ html {
     height: 25rem;
     width: 25rem;
     }
-
     .green-apply, .steps {
         font-size: 1.5rem;
     }
-
     .green-bold {
         font-size: 2rem;
     }
-
     .hero-hamburger {
         margin-left: 40rem;
         margin-top: -4rem;
         margin-right: 1rem;
         max-height: 40px;
     }
-
     .icon {
         height: 4rem;
     }
@@ -364,7 +358,6 @@ html {
         margin-left: 10rem;
         margin-top: 15rem;
         }
-
     .hero-hamburger {
         visibility: hidden;
         margin-right: 1rem;
@@ -417,11 +410,9 @@ html {
     .green-apply, .steps {
         font-size: 2rem;
     }
-
     .green-bold {
         font-size: 3rem;
     }
-    
     .hero-text {
         font-size: 4.5rem;
     }
@@ -441,7 +432,6 @@ html {
         margin-left: 20rem;
         margin-top: -7.5rem;
         width: 24rem;
-    
     }
     .customer-image {
         height: 50rem;
