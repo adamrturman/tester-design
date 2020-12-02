@@ -1,3 +1,7 @@
+body {
+    width: -webkit-fill-available;
+}
+
 .awards-images {
     padding: 5rem;
     text-align: center;
@@ -130,6 +134,7 @@
 
 .nav-grid {
     padding-left: 0;
+    padding-right: 0;
 }
 
 .navigation-link {
@@ -265,6 +270,9 @@
 }
 
 @media (min-width: 1440px) {
+    .customer-card {
+        margin-left: 15rem;
+    }
     .customer-image {
         margin-left: 20rem;
     }
