@@ -240,13 +240,23 @@ html {
         text-align: center;
     }
 
+    .icon {
+        height: 3rem;
+    }
+
+    .icons-text {
+        font-size: 1rem;
+    }
+
     .navigation-text, .refinance-text {
         font-size: 4vw;
     }
         
     .steps-text {
         margin-top: 32rem;
-    }        
+    }
+    
+    
 }
 
 @media (min-width: 425px) {
@@ -280,6 +290,13 @@ html {
         margin-top: -4rem;
         margin-right: 1rem;
         max-height: 40px;
+    }
+
+    .icon {
+        height: 4rem;
+    }
+    .icons-text {
+        font-size: 2rem;
     }          
 }
 
@@ -339,6 +356,12 @@ html {
 }
 
 @media (min-width: 2560px) {
+    .icon {
+        height: 8rem;
+    }
+    .icons-text {
+        font-size: 3rem;
+    }
     .intro {
         height: 24rem;
     }              
