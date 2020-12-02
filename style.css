@@ -216,6 +216,7 @@ html {
     .customer-card {
     border-radius: 5%;
     height: 20rem;
+    margin-bottom: 2rem;
     margin-left: 0rem;
     margin-top: -3rem;
     width: 18rem;
@@ -223,7 +224,7 @@ html {
 
     .customer-image {
         height: 15rem;
-        margin-left: 1rem;
+        margin-left: 1.5rem;
         margin-top: -3rem;
         width: 15rem;
     }
@@ -269,6 +270,9 @@ html {
 }
 
 @media (min-width: 425px) {
+    .customer-card {
+        margin-left: 3.5rem;
+    }
     .customer-image {
         margin-left: 5rem;
     } 
@@ -286,6 +290,9 @@ html {
 @media (min-width: 768px) {
     .awards-images {
         padding: 4rem;
+    }
+    .customer-card {
+        margin-left: 13.5rem;
     }
     .customer-image {
     margin-left: 10rem;
@@ -321,6 +328,9 @@ html {
 }
 
 @media (min-width: 992px) {
+    .customer-card {
+        margin-left: 5.5rem;
+    }
     .customer-image {
         margin-left: 10rem;
         margin-top: 15rem;
@@ -360,11 +370,18 @@ html {
 }
 
 @media (min-width: 1920px) {
+    .customer-card {
+        margin-bottom: 5rem;
+        margin-left: 20.5rem;
+        width: 20rem;
+    }
     .customer-image {
         height: 40rem;
         width: 40rem;
     }
-    
+    .intro {
+        height: 25rem;
+    }
     .green-apply, .steps {
         font-size: 2rem;
     }
@@ -386,6 +403,14 @@ html {
 }
 
 @media (min-width: 2560px) {
+    .customer-card {
+        height: 17rem;
+        margin-bottom: 10rem;
+        margin-left: 20rem;
+        margin-top: -7.5rem;
+        width: 24rem;
+    
+    }
     .customer-image {
         height: 50rem;
         margin-top: 15rem;
