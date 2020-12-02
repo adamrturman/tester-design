@@ -215,12 +215,12 @@ html {
         padding: 1rem;
     }
     .customer-card {
-    border-radius: 5%;
-    height: 20rem;
-    margin-bottom: 2rem;
-    margin-left: 0rem;
-    margin-top: -3rem;
-    width: 18rem;
+        border-radius: 5%;
+        height: 20rem;
+        margin-bottom: 2rem;
+        margin-left: 0rem;
+        margin-top: -3rem;
+        width: 18rem;
     }
 
     .customer-image {
@@ -287,6 +287,9 @@ html {
     }
     .customer-image {
         margin-left: 5rem;
+    }
+    .hero-hamburger {
+        margin-top: -4rem;
     } 
     .navigation-text, .refinance-text {
         font-size: initial;
@@ -297,6 +300,13 @@ html {
     .steps-text {
         margin-top: 5rem;
     }        
+}
+
+@media (min-width: 630px) {
+    .hero-hamburger {
+        margin-left: 16rem;
+        margin-top: 4rem;
+    }
 }
 
 @media (min-width: 768px) {
@@ -337,6 +347,13 @@ html {
     .steps-text {
         margin-top: 22rem;
     }          
+}
+
+@media (min-width: 964px) {
+    .hero-hamburger {
+        margin-left: 35rem;
+        margin-top: 4rem;
+    }
 }
 
 @media (min-width: 992px) {
