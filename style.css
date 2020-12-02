@@ -50,12 +50,6 @@
     margin-top: 1rem;
 }
 
-.hamburger {
-    margin-left:5rem;
-    margin-top:50px;
-    max-height: 40px;  
-}
-
 .hero {
    height: 40rem;
    padding: 0; 
@@ -63,6 +57,12 @@
 
 .hero-box {
     padding-right: 0;
+}
+
+.hero-hamburger {
+    margin-left:5rem;
+    margin-top:50px;
+    max-height: 40px;  
 }
 
 .hero-image {
@@ -110,7 +110,7 @@
 
 
 .intro {
-    height: 20rem;
+    height: 22rem;
 }
 
 .logo {
@@ -162,6 +162,13 @@
     background-size: cover;
 }
 
+.refinance-hamburger {
+    visibility: hidden;
+    margin-left:5rem;
+    margin-top:50px;
+    max-height: 40px;  
+}
+
 .refinance-text {
     color:white;
     font-size:2vw; 
@@ -187,6 +194,12 @@
 }
 
 @media (min-width: 320px) {
+    .hero-hamburger {
+        margin-left: 40rem;
+        margin-top: -4rem;
+        margin-right: 1rem;
+        max-height: 40px;
+    }  
     .steps-text {
         margin-top: 32rem;
     }        
@@ -199,10 +212,23 @@
 }
 
 @media (min-width: 768px) {
-           
+    .hero-hamburger {
+        margin-left: 40rem;
+        margin-top: -4rem;
+        margin-right: 1rem;
+        max-height: 40px;
+    }           
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
+    .hero-hamburger {
+        visibility: hidden;
+        margin-right: 1rem;
+    }
+    .refinance-hamburger {
+        visibility: visible;
+        margin-right: 5rem;
+    }
     .steps-text {
         margin-top: 5rem;
     }        
