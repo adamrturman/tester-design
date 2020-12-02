@@ -156,10 +156,16 @@ html {
     text-align: center; 
 }
 
+.hero-hamburger:hover, .navigation-text:hover, .refinance-hamburger:hover, .refinance-text:hover {
+    color:#58bc79;
+    cursor: grab;
+    text-decoration: underline;
+}
+
 .pointer {
     margin-bottom:.5rem;
     margin-left:-11px;
-    max-height: 4rem;  
+    max-height: 3.4rem;  
 }
 
 .purchase {
@@ -200,10 +206,13 @@ html {
 
 .why-us {
     background-image: url('img/why-us.jpg'); 
-    background-size: cover; 
+    background-size: cover;
 }
 
 @media (min-width: 320px) {
+    .awards-images {
+        padding: 1rem;
+    }
     .customer-card {
     border-radius: 5%;
     height: 20rem;
@@ -214,8 +223,8 @@ html {
 
     .customer-image {
         height: 15rem;
-        margin-left: 2rem;
-        margin-top: 9rem;
+        margin-left: 1rem;
+        margin-top: -3rem;
         width: 15rem;
     }
 
@@ -224,7 +233,17 @@ html {
         margin-top: -4rem;
         margin-right: 1rem;
         max-height: 40px;
-    }  
+    }
+
+    .hero-text {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .navigation-text, .refinance-text {
+        font-size: 4vw;
+    }
+        
     .steps-text {
         margin-top: 32rem;
     }        
@@ -233,6 +252,12 @@ html {
 @media (min-width: 425px) {
     .customer-image {
         margin-left: 13rem;
+    } 
+    .navigation-text, .refinance-text {
+        font-size: initial;
+    }
+    .pointer {
+        visibility: visible;
     }
     .steps-text {
         margin-top: 25rem;
@@ -240,6 +265,9 @@ html {
 }
 
 @media (min-width: 768px) {
+    .awards-images {
+        padding: 4rem;
+    }
     .customer-image {
     margin-left: 10rem;
     margin-top: 1rem;
@@ -252,7 +280,7 @@ html {
         margin-top: -4rem;
         margin-right: 1rem;
         max-height: 40px;
-    }           
+    }          
 }
 
 @media (min-width: 992px) {
@@ -265,9 +293,20 @@ html {
         visibility: hidden;
         margin-right: 1rem;
     }
+    .hero-text {
+        font-size: 3.5rem;
+        margin-top: 17rem;
+        text-align: inherit;
+    }
     .refinance-hamburger {
         visibility: visible;
         margin-right: 5rem;
+    }
+    .navigation-text, .refinance-text {
+        font-size: 2vw;
+    }
+    .pointer {
+        max-height: 4rem;
     }
     .steps-text {
         margin-top: 5rem;
@@ -281,13 +320,26 @@ html {
     .customer-image {
         margin-left: 20rem;
     }
-          
+    .hero-text {
+        margin-top: 16rem;
+    }     
 }
 
 @media (min-width: 1920px) {
-          
+    .hero-text {
+        font-size: 4.5rem;
+    }
+    .pointer {
+        max-height: 5.7rem;
+        margin-left: -1rem;
+    }
+    .refinance-hamburger {
+        margin-right: -4rem;
+    }          
 }
 
 @media (min-width: 2560px) {
-          
+    .intro {
+        height: 24rem;
+    }              
 }
