@@ -71,7 +71,7 @@ html {
 .hero-hamburger {
     margin-left:5rem;
     margin-top:50px;
-    max-height: 40px;  
+    max-height: 40px;
 }
 
 .hero-image {
@@ -156,7 +156,7 @@ html {
     text-align: center; 
 }
 
-.hero-hamburger:hover, .navigation-text:hover, .refinance-hamburger:hover, .refinance-text:hover {
+.navigation-text:hover, .refinance-text:hover {
     color:#58bc79;
     cursor: grab;
     text-decoration: underline;
@@ -182,7 +182,8 @@ html {
     visibility: hidden;
     margin-left:5rem;
     margin-top:50px;
-    max-height: 40px;  
+    max-height: 40px;
+    position: sticky;  
 }
 
 .refinance-text {
@@ -238,10 +239,10 @@ html {
     }
 
     .hero-hamburger {
-        margin-left: 40rem;
+        margin-left: 17.5rem;
         margin-top: -4rem;
         margin-right: 1rem;
-        max-height: 40px;
+        max-height: 34px;
     }
 
     .hero-text {
@@ -274,6 +275,9 @@ html {
     .customer-image {
         margin-left: 3rem;
         margin-top: -6rem;
+    }
+    .hero-hamburger {
+        margin-left: 19.5rem;
     }
 }
 
