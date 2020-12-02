@@ -194,6 +194,14 @@
 }
 
 @media (min-width: 320px) {
+    .customer-card {
+    border-radius: 5%;
+    height: 20rem;
+    margin-left: 0rem;
+    margin-top: -3rem;
+    width: 18rem;
+    }
+
     .customer-image {
         height: 15rem;
         margin-left: 2rem;
