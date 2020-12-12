@@ -1,458 +1,231 @@
-body {
-    width: -webkit-fill-available;
-    overflow-x:hidden;
-}
-
 html {
-    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
-.awards-images {
-    padding: 5rem;
-    text-align: center;
+.bold-numbers {
+    color:#95a1af;
+    font-family: Roboto Slab; 
+    font-size:90px; 
+    margin-left: 145px; 
 }
 
-.awards-section {
-    height: 15rem;
+.bottom-nav {
+    background-color: #2f3554;
+    display: flex; 
+    justify-content:space-evenly; 
+    position:absolute; 
 }
 
-.customer-card {
-    border-radius: 5%;
-    height: 20rem;
-    margin-left: 10rem;
-    margin-top: -5rem;
-    width: 20rem;
+.bottom-height {
+    display: flex; 
+    flex-direction:column; 
+    line-height:10px
 }
 
-.customer-image {
-    border-radius: 50%;
-    box-shadow: -70px 45px 5px 20px #fbfbfb;
-    height: 35rem;
-    margin-left: 15rem;
-    margin-top: 9rem;
-    width: 35rem;
+.bottom-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    color:#708090;
 }
 
-.drop-cap {
-    text-align: center;
-    font-weight: 100;
-    padding:2rem;
+.carousel-indicators {
+    position: inherit;
 }
 
-.drop-cap:first-letter {
-    font-size: 2rem;
-    font-weight: 300;
-    margin-top: -1rem;
+.carousel-indicators li {
+    border-radius: 100%;
+    height: 5px;
+    width: 5px;
 }
 
-.green-apply {
-    color:#58bc79;
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-top: 1rem;
+.climb {
+    height: 10rem; 
+    position:relative
 }
-.green-bold {
-    color:#58bc79;
-    font-size: 2.4rem;
-    font-weight: bold;
-    padding-top: 2rem;
+
+.climb-box {
+    display: flex;
+}
+
+.copyright {
+    color:#708090;
+    font-style:italic; 
+    padding: 1rem; 
+}
+
+.directions {
+    color: #2f3554;
+    font-family: Montserrat; 
+    font-size:25px; 
+    margin-left: -22px;
+    margin-top:45px; 
+    text-transform:uppercase;  
+}
+
+.directions-text {
+    align-items: center; 
+    display: flex; 
+    margin-left:90px;
+    margin-top: 10px; 
+    padding-right:28px;
 }
 
 .hero {
-   height: 40rem;
-   padding: 0; 
+    background-image: url('./img/Los-angeles-mountain.jpg'); 
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height: 40rem;   
 }
 
-.hero-box {
-    padding-right: 0;
-}
-
-.hero-hamburger {
-    cursor: grab;
-    margin-left:5rem;
-    margin-top:50px;
-    max-height: 40px;
-}
-
-.hero-image {
-    background-image: url('img/home.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-}
-
-.hero-text {
-    color: white;  
-    font-size:3.5rem; 
-    font-weight:bold;
-    line-height: initial;
-    margin-left:1rem; 
-    margin-top:10rem    
-}
-
-.highlight-box {
-    background-color: #49A166;
-}
-
-.icons {
-    text-align: center;
-}
-
-.icons-bg {
-    background-color: #fcfcfc;
-    padding-bottom: 2rem;
-    padding-top: 1rem;
-}
-
-.icons-row {
-    height: 15rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-top: 2rem;
-}
-
-.icons-text {
-    font-size: 2rem;
-    font-weight: 100;
-    line-height: initial;
-}
-
-.intro {
-    height: 22rem;
-}
-
-.logo {
-    height:5rem; 
-    margin-left:1rem; 
-    margin-top:3rem;
-}
-
-.main {
-    padding: 0;
-}
-
-.meet-me {
-    background-image: url('img/meet-me.jpg'); 
-    background-size: cover; 
-}
-
-.nav-grid {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.navigation-link {
-    background-color: #58bc79; 
-    margin-left:25%;
-    width:8px; 
-}
-
-.navigation-text {
+.hero-links {
+    display: inline-flex;
     color:white;
-    font-size:2vw; 
-    margin-top: 10rem; 
-    padding-left:1rem; 
-    text-align: center; 
-}
-
-.navigation-text:hover, .refinance-text:hover {
-    color:#58bc79;
-    cursor: grab;
+    font-family: Lato; 
+    margin-left: 30rem; 
     text-decoration: underline;
 }
 
-.pointer {
-    margin-bottom:.5rem;
-    margin-left:-11px;
-    max-height: 3.4rem;  
+.hero-link {
+    padding: 1rem;
 }
 
-.purchase {
-    background-image: url('img/purchase.jpg'); 
-    background-size: cover;
+.hero-link:hover {
+    color:#2f3554;
+    cursor: pointer;
 }
 
-.refinance {
-    background-image: url('img/refinance.jpg'); 
-    background-size: cover;
+.hero-nav {
+    display: flex; 
+    justify-content:space-evenly;
 }
 
-.refinance-hamburger {
-    cursor: grab;
-    margin-left:5rem;
-    margin-top:50px;
-    max-height: 40px;
-    position: sticky;
-    visibility: hidden;  
+.history {
+    background-image: url('./img/snowy-mountain2.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height:40rem; 
+    position:relative;
 }
 
-.refinance-text {
-    color:white;
-    font-size:2vw; 
-    margin-top: 4.5rem; 
-    padding-left:1rem; 
-    text-align: center;
+.hide {
+    visibility: hidden;
 }
 
-.steps {
-    font-size: 1.5rem;
+.history-box {
+    display: flex;
 }
 
-.steps-text {
-    font-size: .7rem;
-    height: 60rem;
-    margin-right: -8rem;
-    text-align: center;  
+.icon {
+    max-height: 2rem;
 }
 
-.why-us {
-    background-image: url('img/why-us.jpg'); 
-    background-size: cover;
+.image-nav {
+    background-color: #2f3554;  
+    height: 10rem; 
+    opacity: 90%;
+    position: absolute; 
 }
 
-@media (min-width: 320px) {
-    .awards-images {
-        padding: 1rem;
-    }
-    .customer-card {
-        border-radius: 5%;
-        height: 20rem;
-        margin-bottom: 2rem;
-        margin-left: 0rem;
-        margin-top: -3rem;
-        width: 18rem;
-    }
-
-    .customer-image {
-        height: 15rem;
-        margin-left: 1.5rem;
-        margin-top: -3rem;
-        width: 15rem;
-    }
-
-    .green-apply, .steps {
-        font-size: 1.2rem;
-    }
-
-    .green-bold {
-        font-size: 1.4rem;
-    }
-
-    .hero-hamburger {
-        margin-left: 17.5rem;
-        margin-top: -4rem;
-        margin-right: 1rem;
-        max-height: 34px;
-    }
-
-    .hero-text {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
-        text-align: center;
-    }
-
-    .icon {
-        height: 3rem;
-    }
-
-    .icons-text {
-        font-size: 1rem;
-    }
-
-    .navigation-text, .refinance-text {
-        font-size: 4vw;
-    }
-        
-    .steps-text {
-        margin-top: 4rem;
-    } 
+.image-nav-box {
+    margin-left: auto; 
+    margin-right: auto;
 }
 
-@media (min-width: 375px) {
-    .customer-card {
-        margin-left: 1.5rem;
-    }
-    .customer-image {
-        margin-left: 3rem;
-        margin-top: -6rem;
-    }
-    .hero-hamburger {
-        margin-left: 19.5rem;
-    }
+.mountain-nav {
+    background-color: #2f3554; 
+    position: absolute; 
+    text-transform:uppercase
 }
 
-@media (min-width: 425px) {
-    .customer-card {
-        margin-left: 3.5rem;
-    }
-    .customer-image {
-        margin-left: 5rem;
-    }
-    .hero-hamburger {
-        margin-top: -4rem;
-    } 
-    .navigation-text, .refinance-text {
-        font-size: initial;
-    }
-    .pointer {
-        visibility: visible;
-    }
-    .steps-text {
-        margin-top: 5rem;
-    }        
+.mountain-one {
+    background-color: #95a1af; 
+    color: #2f3554;  
+    margin-left: 90px
 }
 
-@media (min-width: 630px) {
-    .hero-hamburger {
-        margin-left: 16rem;
-        margin-top: 4rem;
-    }
+.mountain-one:hover {
+    background-color: #2f3554 !important; 
+    color:#95a1af !important;
+    text-decoration: underline;
 }
 
-@media (min-width: 768px) {
-    .awards-images {
-        padding: 4rem;
-    }
-    .customer-card {
-        margin-left: 14rem;
-    }
-    .customer-image {
-    margin-left: 10.5rem;
-    margin-top: -3rem;
-    height: 25rem;
+.mountain-two {
+    background-color: #2f3554; 
+    color:#95a1af;
+}
+
+.mountain-two:hover {
+    background-color: #fff !important; 
+    color: #2f3554 !important;
+    text-decoration: underline;
+}
+
+.schedule {
+    padding-top:50px;
+}
+
+.schedule-card {
+    height: 15rem;
+    margin-left:100px; 
+    opacity:90%; 
+    padding: 30px; 
     width: 25rem;
-    }
-    .green-apply, .steps {
-        font-size: 1.5rem;
-    }
-    .green-bold {
-        font-size: 2rem;
-    }
-    .hero-hamburger {
-        margin-left: 40rem;
-        margin-top: -4rem;
-        margin-right: 1rem;
-        max-height: 40px;
-    }
-    .icon {
-        height: 4rem;
-    }
-    .icons-text {
-        font-size: 2rem;
-    }
-    .steps-text {
-        margin-top: 22rem;
-    }          
 }
 
-@media (min-width: 964px) {
-    .hero-hamburger {
-        margin-left: 35rem;
-        margin-top: 4rem;
-    }
+.schedule-dates {
+    list-style: none; 
+    padding:0;
 }
 
-@media (min-width: 992px) {
-    .customer-card {
-        margin-left: 5.5rem;
-    }
-    .customer-image {
-        margin-left: 10rem;
-        margin-top: 15rem;
-        }
-    .hero-hamburger {
-        visibility: hidden;
-        margin-right: 1rem;
-    }
-    .hero-text {
-        font-size: 3.5rem;
-        margin-top: 17rem;
-        text-align: inherit;
-    }
-    .intro {
-        height: 25rem;
-    }
-    .refinance-hamburger {
-        visibility: visible;
-        margin-right: 5rem;
-    }
-    .navigation-text, .refinance-text {
-        font-size: 2vw;
-    }
-    .pointer {
-        max-height: 4rem;
-    }
-    .steps-text {
-        margin-top: 2rem;
-    }        
+.schedule-routes {
+    list-style: none;
 }
 
-@media (min-width: 1440px) {
-    .customer-card {
-        margin-left: 15rem;
-    }
-    .customer-image {
-        margin-left: 20rem;
-    }     
+.schedule-display {
+    display: flex;
 }
 
-@media (min-width: 1920px) {
-    .customer-card {
-        margin-bottom: 5rem;
-        margin-left: 20.5rem;
-        width: 20rem;
-    }
-    .customer-image {
-        height: 40rem;
-        width: 40rem;
-    }
-    .intro {
-        height: 25rem;
-    }
-    .green-apply, .steps {
-        font-size: 2rem;
-    }
-    .green-bold {
-        font-size: 3rem;
-    }
-    .hero-text {
-        font-size: 4.5rem;
-    }
-    .pointer {
-        max-height: 5.7rem;
-        margin-left: -1rem;
-    }
-    .refinance-hamburger {
-        margin-right: -4rem;
-    }          
+.schedule-section {
+    background-image: url('./img/craggy-mountain.jpeg'); 
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    color:grey;
+    height: 40rem; 
+    position: relative; 
 }
 
-@media (min-width: 2560px) {
-    .customer-card {
-        height: 24rem;
-        margin-bottom: 10rem;
-        margin-left: 20rem;
-        margin-top: -7.5rem;
-        width: 24rem;
-    }
-    .customer-image {
-        height: 50rem;
-        margin-top: 15rem;
-        width: 50rem;
-    }
-    .drop-cap {
-        font-size: x-large;
-    }
-    .icon {
-        height: 8rem;
-    }
-    .icons-text {
-        font-size: 3rem;
-    }
-    .intro {
-        height: 24rem;
-    }
-    .steps-text {
-        margin-top: 12rem;
-    }              
+.schedule-text {
+    color: #2f3554; 
+    font-family: Lato; 
+    text-transform: uppercase; 
 }
+.sticky-nav {
+    display: flex; 
+    justify-content:space-between; 
+    padding-left: 150px; 
+    padding-right: 25px;
+    position:fixed; 
+}
+
+.sticky-nav-link {
+    padding: 1rem;
+}
+
+.sticky-nav-links {
+    display: flex; 
+    font-family: Lato; 
+    text-decoration: underline;
+}
+
+.sticky-nav-links :hover {
+    color:#95a1af;
+    cursor: pointer;
+}
+
+.sticky-nav-title {
+    display: flex; 
+    flex-direction:column; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:10px;
+}
+
+  
